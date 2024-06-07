@@ -1,0 +1,37 @@
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+#suggestions {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  max-height: 150px;
+  overflow-y: auto;
+  display: none;
+  width: auto; /* Set the desired width */
+  position: absolute;
+  left: 0;
+  bottom: 40px; /* Position the suggestion box 40px above the input box */
+  border-radius: 5px; /* Rounded corners for the suggestion box */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Drop shadow for the box */
+  z-index: 1; /* Ensure it's above other elements */
+}
+
+#suggestions li {
+  list-style: none;
+  padding: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s; /* Smooth hover effect */
+}
+
+#suggestions li:hover {
+  background-color: #f0f0f0;
+}
+
+input {
+  width: 400px;
+}
