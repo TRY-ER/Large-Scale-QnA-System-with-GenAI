@@ -1,0 +1,15 @@
+fastapi==0.103.2
+uvicorn==0.23.2
+python-dotenv
+boto3==1.28.62
+redis==5.0.1
+websockets==11.0.3
+scipy==1.11.3
+numpy==1.26.0
+google-generativeai
+ai4bharat-transliteration
+google-cloud-aiplatform
+google-cloud-translate
+InstructorEmbedding
+sentence-transformers
+tiktoken
